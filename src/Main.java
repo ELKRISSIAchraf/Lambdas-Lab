@@ -75,6 +75,7 @@ public class Main {
         System.out.println("Is +1 < 0? " + predicateLambda.test(1));
     }
 
+
     public static <T> boolean check(T value, Predicate<T> predicate) {
         return predicate.test(value);
     }
