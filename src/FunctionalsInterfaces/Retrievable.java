@@ -1,4 +1,6 @@
+package FunctionalsInterfaces;
+
 @FunctionalInterface
 public interface Retrievable<T> {
-    T retriew();
+    T retrieve();
 }

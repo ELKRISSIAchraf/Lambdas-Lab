@@ -1,2 +1,5 @@
-package FunctionalsInterfaces;public interface Evaluate {
+package FunctionalsInterfaces;
+@FunctionalInterface
+public interface Evaluate<T> {
+    boolean isNegative(T t);
 }
