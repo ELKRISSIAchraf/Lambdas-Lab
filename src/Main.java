@@ -13,6 +13,7 @@ import java.util.function.Supplier;
 
 public class Main {
     public static void main(String[] args) {
+
 //*****************************Part 1***********************************************
       //------------------------------consumer----------------------
         consumer();
@@ -71,8 +72,8 @@ public class Main {
 
         // b) Utilisation d'une expression lambda pour implémenter 3a en utilisant un Predicate
         Predicate<Integer> predicateLambda = value -> value < 0;
-        System.out.println("Is -1 < 0? " + predicateLambda.test(-1));
-        System.out.println("Is +1 < 0? " + predicateLambda.test(1));
+        System.out.println("Is -1 < 0 ? --->" + predicateLambda.test(-1));
+        System.out.println("Is +1 < 0 ? ---> " + predicateLambda.test(1));
     }
 
 
